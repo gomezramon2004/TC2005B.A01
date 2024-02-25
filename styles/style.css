@@ -264,7 +264,13 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 935px) {
+    .thumbnail-txtbox p {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width: 904px) {
     .thumbnail-txtbox h2 {
         font-size: 1rem;
     }
