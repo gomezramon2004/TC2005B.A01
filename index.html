@@ -2,85 +2,110 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Landing Page.">
+        <meta name="author" content="Ramón Alberto Gómez Urquídez">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>Landing Page</title>
     </head>
     <body>
         <header>
             <nav>
-                <div class="nav-left">
-                    <ul>
-                        <li><a href="./index.html">Home Page</a></li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Client Support</a></li>
-                    </ul>
-                </div>
-                <div class="nav-left">
-                    <ul>
-                        <li><a href="#">Download</a></li>
-                        <li><a href="#">Button</a></li>
-                    </ul>
-                </div>
+                <ul class="nav-links">
+                    <li class="nav-items"><a href="./index.html">Home</a></li>
+                    <li class="nav-items"><a href="/pages/blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="#">Services</a></li>
+                    <li class="nav-items"><a href="#">Client Support</a></li>
+                </ul>
+                <ul class="nav-links">
+                    <button>Login</button>
+                </ul>
             </nav>
         </header>
         <main>
             <div class="banner">
-                <img src="./img/placeholder.png" alt="placeholder">
-            </div>
-            <section class="main-services">
-                <h1>Main Services</h1>
-                <div class="card-section">
-                    <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder.png" alt="placeholder">
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder.png" alt="placeholder">
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder.png" alt="placeholder">
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
+                <div class="blur-rectangle">
+                    <h1 id="title">Learning Japanese with KonniApp!</h1>
                 </div>
-                <button>Press</button>
+            </div>
+            <section>
+                <h1>An AI-Assisting Platform where you can speed up your learning journey!</h1>
+                <div class="thumbnail-section">
+                    <a href="#" class="thumbnail">
+                        <div id="image1" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Learn How We Started this Awesome Journey</h2>
+                            <p>Inspired by the Most Successful Entrepreneurs... </p>
+                        </div>
+                    </a>    
+                    <a href="#" class="thumbnail">
+                        <div id="image2" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Meet DezuAI!</h2>
+                            <p>Our New AI Technology that can help you understand errors ans get personalized feedback.</p>
+                        </div>
+                    </a>  
+                    <a href="#" class="thumbnail">
+                        <div id="image3" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Now on Mobile Devices</h2>
+                            <p>Continue your coursework when and where tou work best.</p>
+                        </div>
+                    </a>  
+                </div>
+                <button class="large-button">Explore Full Catalog</button>
             </section>
-            <section class="side-services">
-                <h1>Side Services</h1>
-                <a href="#"><img src="./img/placeholder.png" alt="placeholder"></a>
-                <a href="#"><img src="./img/placeholder.png" alt="placeholder"></a>
-                <a href="#"><img src="./img/placeholder.png" alt="placeholder"></a>
-                <a href="#"><img src="./img/placeholder.png" alt="placeholder"></a>
+            <section id="gray-banner">
+                <h1>Stories from real people</h1>
+                <div class="thumbnail-section">
+                    <div href="#" class="thumbnail-nohover">
+                        <div id="person1" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>De'Shaun B., Associate</h2> 
+                            <p>Software Engineer, Winter Park </p>
+                        </div>
+                    </div>    
+                    <div href="#" class="thumbnail-nohover">
+                        <div id="person2" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Serena I.,</h2> 
+                            <p>Software Developer @ Adidas, South Holland.</p> 
+                        </div>
+                    </div>  
+                    <div href="#" class="thumbnail-nohover">
+                        <div id="person3" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Julia J., </h2>
+                            <p>Ruby on Rails Developer, São Paulo.</p>
+                        </div>
+                    </div>
+                    <div href="#" class="thumbnail-nohover">
+                        <div id="person4" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Cristian T.,</h2>  
+                            <p>Front-End Engineer @ Grid Dynamics, Guadalajara.</p>
+                        </div>
+                    </div>    
+                </div>
             </section>
             <section class="contact-us">
                 <h1>Contact Us</h1>
-                <p>Description</p>
                 <textarea name="contact-us" id="contact-us" cols="30" rows="10"></textarea>
-                <button>Press</button>
+                <button class="large-button">Send</button>
             </section>
         </main>
-        <footer>
+        <footer id="gray-banner">
             <div class="footer-left">
-                <p>Copyright 2022 Company Name</p>
+                <p>Copyright 2024 Company Name</p>
             </div>
-            <div class="footer-right">
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+            <ul class="footer-right">
+                <li><a id="footerlink" href="#">Privacy Policy</a></li>
+                <li><a id="footerlink" href="#">Terms & Conditions</a></li>
+                <li><a id="footerlink" href="#">Cookie Policy</a></li>
+                <li><a id="footerlink" href="#">Contact</a></li>
+            </ul>
         </footer>
     </body>
 </html>

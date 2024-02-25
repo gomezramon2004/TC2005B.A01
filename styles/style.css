@@ -1,0 +1,230 @@
+/* Font Family */
+
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 400;
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #717D96;
+}
+
+body {
+    background-color: #fff;
+}
+
+header nav{
+    font-family: Inter;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+    border-bottom: 0.25rem solid #1A202C;
+}
+
+a {
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1A202C;
+    transition: color .30s;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+section > h1 {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+button {
+    font-size: 1.125rem;
+    height: 2.5rem;
+    width: 10rem;
+    color: #fff;
+    background-color: #2D3648;
+    border: 2px solid #2D3648;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 1.175rem;
+    background-color: #1A202C;
+    transition: background-color .20s, font-size .20s;
+}
+
+textarea {
+    width: 60rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+/* Class Styles */
+
+.nav-links {
+    display: flex;
+    margin: auto 0;
+}
+
+.nav-items {
+    padding: 0rem 1rem;
+}
+
+.banner {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.blur-rectangle {
+    height: 100%;
+    width: 100%;
+    background: rgba(34,34,34,0.75);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0.125rem); 
+    z-index: 1;
+}
+
+.thumbnail-section {
+    display: flex;
+    max-height: 30rem;
+}
+
+.thumbnail, .thumbnail-nohover {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 30rem;
+    margin: 0 4rem;
+    border: 2px solid #1A202C;
+    border-radius: 0.25rem;
+    transition: width .20s, height .20s;
+}
+
+.thumbnail-nohover {
+    background-color:#272f3f;
+}
+
+.thumbnail:hover {
+    width: 21rem;
+    height: 31.5rem;
+    transition: width .20s, height .20s;
+}
+
+.thumbnail h2, .thumbnail-nohover h2 {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.thumbnail-image {
+    height: 75%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.thumbnail-txtbox {
+    padding: 1rem;
+    max-height: 100%;
+    border-top: 2px solid #1A202C;
+}
+
+.large-button {
+    height: 4rem;
+    width: 25rem;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-right > li {
+    padding: 0rem 1rem;
+}
+
+/* ID Styles */
+
+#title {
+    font-size: 5rem;
+    color: #fff;
+    padding: 0 2.5rem;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+#gray-banner {
+    background-color: #2D3648;
+    color: white;
+}
+
+#footerlink:hover {
+    color: #a0a4ac;
+}
+
+#image1 {
+    background-image: url(../img/card1.png);
+}
+
+#image2 {
+    background-image: url(../img/card2.png);
+}
+
+#image3 {
+    background-image: url(../img/card3.png);
+}
+
+#person1 {
+    background-image: url(../img/person1.jpeg);
+}
+
+#person2 {
+    background-image: url(../img/person2.jpeg);
+}
+
+#person3 {
+    background-image: url(../img/person3.jpeg);
+}
+
+#person4 {
+    background-image: url(../img/person4.jpeg);
+}
