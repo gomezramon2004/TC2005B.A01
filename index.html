@@ -8,16 +8,23 @@
         <meta name="author" content="Ramón Alberto Gómez Urquídez">
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>Landing Page</title>
     </head>
     <body>
         <header>
             <nav>
-                <ul class="nav-links">
+                <ul class="nav-links desktop">
                     <li class="nav-items"><a href="./index.html">Home</a></li>
                     <li class="nav-items"><a href="/pages/blog.html">Blog</a></li>
                     <li class="nav-items"><a href="#">Services</a></li>
                     <li class="nav-items"><a href="#">Client Support</a></li>
+                </ul>
+                <ul class="nav-links mobile">
+                    <a href="./index.html"><i class="nav-items bi bi-house-door"></i></a>
+                    <a href="/pages/blog.html"><i class="nav-items bi bi-journal"></i></a>
+                    <a href="#"><i class="nav-items bi bi-tools"></i></a>
+                    <a href="#"><i class="nav-items bi bi-telephone-forward-fill"></i></a>
                 </ul>
                 <ul class="nav-links">
                     <button>Login</button>
@@ -80,14 +87,7 @@
                             <h2>Julia J., </h2>
                             <p>Ruby on Rails Developer, São Paulo.</p>
                         </div>
-                    </div>
-                    <div href="#" class="thumbnail-nohover">
-                        <div id="person4" class="thumbnail-image"></div>
-                        <div class="thumbnail-txtbox">
-                            <h2>Cristian T.,</h2>  
-                            <p>Front-End Engineer @ Grid Dynamics, Guadalajara.</p>
-                        </div>
-                    </div>    
+                    </div>  
                 </div>
             </section>
             <section class="contact-us">

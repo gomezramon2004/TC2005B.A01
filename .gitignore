@@ -1,2 +1,9 @@
 # macOS Files
 .DS_Store
+
+# json Files
+package.json
+package-lock.json
+
+# folders
+node_modules/
