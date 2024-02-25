@@ -6,18 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Landing Page.">
         <meta name="author" content="Ramón Alberto Gómez Urquídez">
-        <link rel="stylesheet" href="./styles/reset.css">
-        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>Blog</title>
     </head>
     <body>
         <header>
             <nav>
-                <ul class="nav-links">
-                    <li class="nav-items"><a href="../index.html">Home Page</a></li>
-                    <li class="nav-items"><a href="./blog.html">Blog</a></li>
+                <ul class="nav-links desktop">
+                    <li class="nav-items"><a href="../index.html">Home</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
                     <li class="nav-items"><a href="#">Services</a></li>
                     <li class="nav-items"><a href="#">Client Support</a></li>
+                </ul>
+                <ul class="nav-links mobile">
+                    <a href="../index.html"><i class="nav-items bi bi-house-door"></i></a>
+                    <a href="blog.html"><i class="nav-items bi bi-journal"></i></a>
+                    <a href="#"><i class="nav-items bi bi-tools"></i></a>
+                    <a href="#"><i class="nav-items bi bi-telephone-forward-fill"></i></a>
                 </ul>
                 <ul class="nav-links">
                     <button>Login</button>
@@ -26,35 +33,45 @@
         </header>
         <main>
             <article>
-                <h1>Title</h1>
-                <!--<img src="./img/placeholder.png" alt="placeholder"> -->
-                <p>Sample Text</p>
-                <p>Sample Text</p>
-                <p>Sample Text</p>
-                <div class="card-section">
-                    <div class="card">
-                        <a href="#">
-                            <!--<img src="./img/placeholder.png" alt="placeholder"> -->
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="#">
-                            <!--<img src="./img/placeholder.png" alt="placeholder"> -->
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="#">
-                            <!--<img src="./img/placeholder.png" alt="placeholder"> -->
-                            <h2>Subtitle</h2>
-                            <p>Sample Text</p>
-                        </a>
-                    </div>
+                <h1>Introducing DezuAI: Your Personalized Japanese Learning Assistant!</h1>
+                <div id="blog1" class="banner"></div>
+                <div class="text-article">
+                    <p>Are you struggling to grasp the intricacies of Japanese language learning? Do you find yourself lost in translation, unsure of where you're going wrong? Say hello to DezuAI - the latest breakthrough in AI technology designed to revolutionize your Japanese learning experience!</p>
+                    <p>Understanding errors and receiving personalized feedback are crucial components of mastering any language. With DezuAI, these tasks become effortless and efficient. Gone are the days of puzzling over grammar rules or pronunciation nuances alone. DezuAI is here to guide you every step of the way.</p>
+                    <p>So, what sets DezuAI apart from other language learning tools? It's simple - adaptability and personalization. DezuAI utilizes state-of-the-art machine learning algorithms to analyze your learning patterns, strengths, and weaknesses. By understanding your unique learning style, DezuAI tailors its feedback to suit your individual needs.</p>
+                    <p>Imagine having a virtual tutor by your side, available 24/7 to answer your questions and provide constructive criticism. With DezuAI, this dream becomes a reality. Whether you're a beginner navigating the basics or an advanced learner fine-tuning your skills, DezuAI is equipped to meet you at your level.</p>    
+                    <p> But DezuAI isn't just about error correction - it's about empowerment. We believe that learning a language should be an engaging and enjoyable experience. That's why DezuAI offers a range of interactive exercises, quizzes, and games to keep you motivated and on track.</p>   
+                    <p>Ready to take your Japanese skills to the next level? Say goodbye to frustration and hello to progress with DezuAI. Join the thousands of learners worldwide who have already unlocked the power of personalized language learning. With DezuAI as your guide, fluency is within reach.</p>      
+                    <p> Don't let language barriers hold you back any longer. Embrace the future of Japanese learning with DezuAI today!</p>
                 </div>
             </article>
+            <section>
+                <h1>More Blogs!</h1>
+                <div class="thumbnail-section">
+                    <a href="#" class="thumbnail">
+                        <div id="image1" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Learn How We Started this Awesome Journey</h2>
+                            <p>Inspired by the Most Successful Entrepreneurs... </p>
+                        </div>
+                    </a>    
+                    <a href="blog.html" class="thumbnail">
+                        <div id="image2" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Meet DezuAI!</h2>
+                            <p>Our New AI Technology that can help you understand errors and get personalized feedback.</p>
+                        </div>
+                    </a>  
+                    <a href="#" class="thumbnail">
+                        <div id="image3" class="thumbnail-image"></div>
+                        <div class="thumbnail-txtbox">
+                            <h2>Now on Mobile Devices</h2>
+                            <p>Continue your coursework when and where tou work best.</p>
+                        </div>
+                    </a>  
+                </div>
+                <button class="large-button">Explore Full Catalog</button>
+            </section>
         </main>
         <footer id="gray-banner">
             <div class="footer-left">

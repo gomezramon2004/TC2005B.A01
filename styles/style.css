@@ -54,14 +54,14 @@ a:hover {
     transition: color .30s;
 }
 
-section {
+section, article {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem;
 }
 
-section > h1 {
+section > h1, article > h1 {
     font-family: Inter;
     font-weight: bold;
     font-size: 2.5rem;
@@ -133,6 +133,14 @@ footer {
     align-items: center;
     backdrop-filter: blur(0.125rem); 
     z-index: 1;
+}
+
+.text-article {
+    font-size: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .thumbnail-section {
@@ -238,6 +246,11 @@ footer {
 
 #person4 {
     background-image: url(../img/person4.jpeg);
+}
+
+#blog1 {
+    background-image: url(../img/blog1.png);
+    background-position: center 25%;
 }
 
 /* Media Queries */
