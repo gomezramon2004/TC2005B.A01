@@ -1,2 +1,2 @@
 URL:
-https://gomezramon2004.github.io/TC2005B.A01/
+https://tc2005b-a01-html.netlify.app/
